@@ -1,0 +1,42 @@
+{
+  "name": "ajs-modules",
+  "version": "1.0.0",
+  "description": "AJS modules homework",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --mode production --progress",
+    "dev": "webpack --watch --mode development --progress",
+    "lint": "eslint src/js",
+    "serve": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/errand/ajs-modules.git"
+  },
+  "keywords": [
+    "homework",
+    "js",
+    "netology"
+  ],
+  "author": "Aleksandr Shatskikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/errand/ajs-modules/issues"
+  },
+  "homepage": "https://github.com/errand/ajs-modules#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.1",
+    "eslint-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
